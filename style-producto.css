@@ -1,0 +1,43 @@
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    text-align: center;
+}
+
+.card-info h5, .card-info h6{
+    color: var(--color-gris-piedra);
+    padding: 5px 0 0 0;
+}
+
+.agregar-carrito{
+    color: var(--color-beige-suave);
+    background-color: var(--color-verde-natural);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.card-img{
+    width: 200px;
+    height: 250px;
+}
+
+.container-star{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+
+.container-star i{
+    color: var(--color-amarillo-arena);
+}

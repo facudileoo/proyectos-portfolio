@@ -1,0 +1,43 @@
+.prendas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.prendas .card{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 740px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.prendas .card a{  
+    position: absolute; 
+    width: 100%;
+    height: 740px;
+}
+
+.prendas .rem{
+    background-image: url('/img/fondo-remera.png');
+}
+
+.prendas .pants{
+    background-image: url('/img/fondo-pantalon.png');
+}
+
+.prendas .gorra{
+    background-image: url('/img/fondo-gorra.png');
+}
+
+.prendas .card h2{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+}

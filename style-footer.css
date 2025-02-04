@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-verde-natural);
+    align-items: center;
+    padding: 20px;
+}
+
+footer a{
+    color: var(--color-beige-suave);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+footer h2{
+    color: var(--color-beige-suave);
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

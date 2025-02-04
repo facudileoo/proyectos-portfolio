@@ -1,0 +1,23 @@
+:root {
+    /* Color Principal */
+    --color-verde-natural: #25D366;
+    
+    /* Colores Secundarios */
+    --color-beige-suave: #FFF8E1;
+    --color-marron-tierra: #8D6E63;
+    
+    /* Color de Acento */
+    --color-amarillo-arena: #FFD54F;
+    
+    /* Color Neutro */
+    --color-gris-piedra: #BDBDBD;
+
+    --color-letra: #FFFFFF;
+  }
+  
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;    
+}

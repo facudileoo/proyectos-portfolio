@@ -1,0 +1,80 @@
+.header{
+    background-image: url('https://i.blogs.es/d1eac3/8b966f30dc3b61097c20d7499a363065-1-/1366_2000.jpeg');
+    height: 984px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+header .navbar a{
+    color: var(--color-letra);
+    text-decoration: none;
+    font-size: 18px
+}
+
+.dropdown-menu li .dropdown-item{
+    color: var(--color-verde-natural);
+}
+
+.contenedor-forms{
+    position: absolute;
+    left: 20px;
+}
+
+.btn-categorias, .btn-form ,.contenedor-forms button{
+    color: var(--color-beige-suave);
+    background-color: var(--color-verde-natural);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+h1, .header h3{
+    color: var(--color-letra);
+}
+
+.container-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    padding-left: 40px;
+}
+
+.cart{
+    border: none;
+    color: var(--color-letra);
+    background-color: transparent;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+}
+
+.menu-carrito{
+    background-color: var(--color-verde-natural);
+    width: 90dvw;
+}
+
+.menu-carrito h3{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.cerrar{
+    color: var(--color-letra);
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
